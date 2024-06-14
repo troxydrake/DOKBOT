@@ -52,15 +52,15 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ ᴅᴀɴ ꭙ ᴜꜱᴇʀʙᴏᴛ​
+◈ ˹ꭙ͢ᴅᴏᴋᴛ͢ᴇꝛ˼ ꭙ ᴜꜱᴇʀʙᴏᴛ​
 
   ◈ Version - {}
-  ◈ Dan - {}
+  ◈ ˹ꭙ͢ᴅᴏᴋᴛ͢ᴇꝛ˼ - {}
   ◈ Telethon - {}
 """
 
 in_alive = """
-<b> Dan-Userbot</b>
+<b> ˹ꭙ͢ᴅᴏᴋᴛ͢ᴇꝛ˼-Userbot</b>
 <b> status :</b> <code>{}</code>{}
 <b>   expired_on :</b> <code>{}</code>
 <b>   dc_id :</b> <code>{}</code>
@@ -89,12 +89,12 @@ async def kynanabsen(ganteng):
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Kynan$")
 async def naya(naya):
-    await naya.reply("**Dan Punya Nya Fira**🤩")
+    await naya.reply("**Dokter in here**🤩")
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Naya$")
 async def naya(naya):
-    await naya.reply("**Fira Punya Nya Dan**🤩")
+    await naya.reply("**This is Dokter**🤩")
 
 
 @ayra_cmd(pattern=r"^[aA][lL][iI][vV][eE](?: |$)(.*)")
