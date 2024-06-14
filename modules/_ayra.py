@@ -9,16 +9,16 @@
 from . import LOG_CHANNEL, Button, asst, ayra_cmd, eor, get_string
 
 REPOMSG = """
-◈ **ᴅᴀɴ ꭙ ᴜꜱᴇʀʙᴏᴛ​** ◈\n
+◈ **˹ꭙ͢ᴅᴏᴋᴛ͢ᴇꝛ˼ ꭙ ᴜꜱᴇʀʙᴏᴛ​** ◈\n
 ◈ Repo - [Click Here](https://github.com/barcacoty2024/Naya-Userbot)
-◈ Support - @Disney_storeDan
+◈ Support - @Top_Mutualan_Indonesia
 """
 
 RP_BUTTONS = [
     [
         Button.url(get_string("bot_3"), "https://github.com/barcacoty2024/Naya-Userbot"),
     ],
-    [Button.url("Support Group", "t.me/Disney_storeDan")],
+    [Button.url("Support Group", "t.me/Top_Mutualan_Indonesia")],
 ]
 
 AYSTRING = """🎇 **Thanks for Deploying Dan-Userbot**
