@@ -83,7 +83,7 @@ async def _(event):
     sleep(3)
     await xx.edit("Cuma Mau Bilang")
     sleep(2)
-    await xx.edit("Kalo Bang Riz ...")
+    await xx.edit("Kalo dokter itu ...")
     sleep(1)
     await xx.edit("Ganteng Banget")
 
